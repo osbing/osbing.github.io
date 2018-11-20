@@ -1,0 +1,26 @@
+# Site settings
+name: osbing
+email: osbing@github.io
+author: osbing
+url: http://osbing.github.io
+
+resume_site: 个人网站
+github: http://osbing.github.io
+baseurl: ""
+description: Actually, less is more!
+meta_description: osbing;gogogo;
+motto: It's our wits that make us men.
+banner: Try everything。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: osbing
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 
