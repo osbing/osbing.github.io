@@ -1,50 +1,49 @@
-# Site settings
-title: osbing的博客
-email: osbing@github.com
-description: > # this means to ignore newlines until "baseurl:"
-  osbing博客
-baseurl: '' # the subpath of your site, e.g. /blog/
-url: https://osbing.github.io # the base hostname & protocol for your site
-rss_url: /pages/feed.xml
-author: osbing
+# Basic
+title: Osbing
+subtitle: A blog-orientation theme for Jekyll
+welcome_message: <a href="https://osbing.github.io" target="_blank">Download the theme</a>
+description: Osbing is a port of my Ghost theme vno.
+creator: <a href="https://osbing.github.io">@osbing</a>
 
-# Sidebar filter
-# Choose 'tag' or 'category' as filter in sidebar.
-filter: 'category'
-recent_num: 20
+url: "https://osbing.github.io"
 
-# Social account
-twitter: osbing
-weibo: osbing
-github: osbing
-instagram: osbing
-linkedin: osbing
+permalink: /:year/:month/:title/
 
-# avatar and Favicon
-avatar: osbing
-favicon: osbing
-
-# disqus config
-disqus:
-  shortname: osbing-zh
-
-# google analytics config
-ga:
-  id: osbing
-  url: osbing
-
-# Build settings
-permalink: /:year/:month/:day/:title.html
-markdown: kramdown
+# Format
 highlighter: rouge
-mathjax: disabled
-sass:
-  style: compressed
 
-# Jekyll Plugin
-# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
 
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'https://osbing.github.io/projects'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: osbing
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: osbing
+    github: osbing
+    twitter: osbing
+    gplus: #107108267983477358170
+    mail: osbing@github.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
