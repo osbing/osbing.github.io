@@ -3,8 +3,8 @@ title: osbing的博客
 email: osbing@github.com
 description: > # this means to ignore newlines until "baseurl:"
   osbing博客
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://osbing.github.io # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: https://osbing.github.io # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: osbing
 
