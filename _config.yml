@@ -1,26 +1,50 @@
 # Site settings
-name: osbing
-email: osbing@github.io
+title: osbing的博客
+email: osbing@github.com
+description: > # this means to ignore newlines until "baseurl:"
+  osbing博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://osbing.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
 author: osbing
-url: http://osbing.github.io
 
-resume_site: 个人博客
-github: http://osbing.github.io
-baseurl: ''
-description: Actually, less is more!
-meta_description: osbing;gogogo;
-motto: It's our wits that make us men.
-banner: Try everything。
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# Social account
+twitter: osbing
+weibo: osbing
+github: osbing
+instagram: osbing
+linkedin: osbing
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# avatar and Favicon
+avatar: osbing
+favicon: osbing
 
-github_username: osbing
+# disqus config
+disqus:
+  shortname: osbing-zh
+
+# google analytics config
+ga:
+  id: osbing
+  url: osbing
 
 # Build settings
+permalink: /:year/:month/:day/:title.html
 markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
 
-baidu_analysis: 
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
