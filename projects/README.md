@@ -1,4 +1,3 @@
-# Project
+# wxdev
 
-## wxdev
-https://github.com/osbing/wxdev
+## [wxdev](https://github.com/osbing/wxdev)
